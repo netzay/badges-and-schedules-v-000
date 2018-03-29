@@ -25,7 +25,7 @@ end
 
 def printer(attendees)
   assign = []
-  assign = (assign_rooms(attendees)
+  assign = assign_rooms(attendees)
     assign.each_entry do |line|
       puts line.chomp
     end
