@@ -18,4 +18,5 @@ def assign_rooms(attendees)
   attendees.each_with_index do |value, index|
     new << "Hello, #{value}! You'll be assigned to room #{index}!"
   end
+  puts new
 end
