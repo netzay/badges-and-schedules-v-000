@@ -26,8 +26,9 @@ end
 def printer(attendees)
   puts batch_badge_creator(attendees)
   assign = []
+  new = []
   assign == assign_rooms(attendees)
     assign.each do |assigns|
-      puts assigns.chomp
+      new << assigns.chomp
     end
   end
