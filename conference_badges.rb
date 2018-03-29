@@ -31,4 +31,3 @@ def printer(attendees)
       puts #{assigns}
     end
   end
-end
