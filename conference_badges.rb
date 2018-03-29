@@ -30,3 +30,4 @@ def printer(attendees)
       puts line.chomp
     end
   end
+end
