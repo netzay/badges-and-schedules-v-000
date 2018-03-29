@@ -29,5 +29,5 @@ def printer(attendees)
     assign.each_entry do |line|
       puts line.chomp
     end
-  end
+  
 end
