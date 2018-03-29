@@ -31,4 +31,5 @@ def printer(attendees)
     assign.each do |assigns|
       new << assigns.chomp
     end
+    return new
   end
