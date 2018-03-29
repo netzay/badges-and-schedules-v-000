@@ -14,10 +14,11 @@ end
 
 def assign_rooms(attendees)
   hash = Hash.new
+  new = []
   rooms = [1,2,3,4,5,6,7]
   attendees.each_with_index do |speaker, index|
     hash[speaker] = index
-    
-    
-
+    new << "Hello, #{speaker}! You'll be assigned to room #{index}!"
+  end
+  return new
 end
