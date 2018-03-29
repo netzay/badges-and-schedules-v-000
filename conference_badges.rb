@@ -20,4 +20,5 @@ def assign_rooms(attendees)
       new << "Hello, #{value}! You'll be assigned to room #{room}!"
     end
   end
+  return new
 end
