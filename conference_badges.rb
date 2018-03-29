@@ -26,7 +26,7 @@ end
 def printer(attendees)
   assign = []
   assign = batch_badge_creator(assign_rooms(attendees))
-    assign.entry do |line|
+    assign.each_entry do |line|
       puts line.chomp
     end
   end
