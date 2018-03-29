@@ -16,6 +16,6 @@ def assign_rooms(attendees)
   new = []
   rooms = [1,2,3,4,5,6,7]
   attendees.each_with_index do |value, index|
-    puts (value, index)
+    puts (value)
 
 end
